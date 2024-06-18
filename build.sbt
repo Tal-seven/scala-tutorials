@@ -5,7 +5,7 @@ version := "0.1"
 scalaVersion := "3.4.2"
 
 resolvers += "Akka library repository".at("https://repo.akka.io/maven")
-
+addSbtPlugin("org.scalameta" % "sbt-scalafmt" % SBT_PLUGIN_VERSION)
 
 val AkkaVersion = "2.9.3"
 val AkkaHttpVersion = "10.6.3"
